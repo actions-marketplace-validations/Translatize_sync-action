@@ -32,7 +32,7 @@ inputs:
   node-version:
     description: 'Node.js version used to run the CLI.'
     required: false
-    default: '20'
+    default: '24'
 
 runs:
   using: 'composite'

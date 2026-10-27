@@ -184,7 +184,7 @@ jobs:
 | `config`       | no       | `translatize.config.json`  | Path to the CLI config file, relative to the workspace. |
 | `api-url`      | no       | `""`                       | Override the Translatize API base URL (self-hosted / staging). Empty uses the CLI default. |
 | `args`         | no       | `""`                       | Extra CLI flags appended verbatim, e.g. `--dry-run`, `--json`, `--fail-on-missing`, `--fail-on-diff`. |
-| `node-version` | no       | `20`                       | Node.js version used to run the CLI. |
+| `node-version` | no       | `24`                       | Node.js version used to run the CLI. |
 
 This action has no outputs – surface results through the step's exit status
 (a red check) and the CLI's `--json` output in the logs.
